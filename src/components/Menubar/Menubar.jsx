@@ -38,7 +38,7 @@ const Menubar = () => {
         </li>
         <li className="nav-item">
           <Link className={active === 'contact-us' ? "nav-link fw-bold active" : "nav-link" } to="/contact" onClick={() => setActive('contact-us')}
-          >Contact Us</Link>
+          >About Us</Link>
         </li>
         
       </ul>
